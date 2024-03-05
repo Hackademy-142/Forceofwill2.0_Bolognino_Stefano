@@ -1,0 +1,24 @@
+#carouselExampleInterval {
+    margin-top: 100px;
+}
+
+body {
+    background-image: url(Elementi\ fow/body.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+
+    height: 50px;
+}
+
+* {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  

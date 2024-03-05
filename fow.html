@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Force of Will 2.0</title>
+    <!-- CDN CSS -->
+    <link rel="stylesheet" href="fowcss.css">
+    <!--CDN BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CDN FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-black">
+    
+    <!-- Navbar -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-opacity-75 fixed-top p-1" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img class="logo" src="Elementi fow/logo.png" alt="logo fow"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#art-1">FoW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#art-2">Caratteristiche</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#art-3">Artwork</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#art-4">Storia</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            List
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.fowtcg.it/tornei">Tornei</a></li>
+                            <li><a class="dropdown-item" href="https://www.fowtcg.it/articoli">News action</a></li>
+                            <li><a class="dropdown-item" href="https://www.fowtcg.it/dbcarte">Carte</a></li>
+                            <li><a class="dropdown-item" href="https://www.fowtcg.it/registra_fow">Inizia a giocare</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="Cerca" aria-label="Search">
+                </form>
+                <button class="btn btn-info border border-warning bg-black text-warning ms-0 ms-md-2 mt-3 mt-md-0" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                </svg></button>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Accedi Modale -->
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+          <div class="modal-content border-0 bg-dark">
+            <div class="modal-body text-warning">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h3>Accedi</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label small">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label small">Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input small" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Ricorda la password</label>
+                                </div>
+                                <button type="submit" class="btn btn-warning d-block mx-auto">Submit</button>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+    
+    <!--slide sfondo-->
+    
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner bg-dark bg-opacity-75">
+            <div class="carousel-item active border-top border-bottom border-warning p-3" style="--bs-border-opacity: .5;" data-bs-interval="3000">
+                <img src="Elementi fow/Sfondo-2.jpg" class="d-block w-75 mx-auto "alt="...">
+            </div>
+            <div class="carousel-item border-top border-bottom border-warning p-3" style="--bs-border-opacity: .5;" data-bs-interval="3000">
+                <img src="Elementi fow/Sfondo-4.jpg" class="d-block w-75 mx-auto " alt="...">
+            </div>
+            <div class="carousel-item border-top border-bottom border-warning p-3" style="--bs-border-opacity: .5;" data-bs-interval="3000">
+                <img src="Elementi fow/Sfondo-1.jpg" class="d-block w-75 mx-auto " alt="...">
+            </div>
+            <div class="carousel-item border-top border-bottom border-warning p-3" style="--bs-border-opacity: .5;" data-bs-interval="3000">
+                <img src="Elementi fow/Sfondo-3.jpg" class="d-block w-75 mx-auto " alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <!--Card illustrazioni-->
+    
+    <div class="container bg-light bg-opacity-75 mt-5"> 
+        <div id="art-1" class="row  align-items-center justify-content-center">
+            <div class="col-12 col-md-6">
+                <img class="mt-5 w-75 h-auto mb-5 border border-black shadow-lg rounded ms-5" src="Elementi fow/Card-1.jpg" alt="">
+            </div>
+            <div  class="col-12 col-md-6 fs-4 p-5">
+                <h2>Cos'è Force of Will</h2>
+                <p>Force of Will è un gioco di carte collezionabili (GCC) creato dallo sviluppatore giapponese Force of Will Co., Ltd. Il gioco è stato lanciato nel 2012 e ha guadagnato popolarità grazie alla sua combinazione di elementi fantasy, arte accattivante e meccaniche di gioco uniche.</p>
+                <p>Simile ad altri giochi di carte collezionabili come Magic: The Gathering, Force of Will coinvolge due giocatori che utilizzano mazzi di carte per sfidarsi reciprocamente. Ogni giocatore assume il ruolo di un "Ruler" e utilizza carte chiamate "J-Ruler" durante il gioco. Le carte rappresentano creature, incantesimi e risorse, e l'obiettivo è sconfiggere l'avversario riducendo i loro punti vita a zero.</p>
+            </div>
+        </div>
+        <div id=art-2 class="row  align-items-center justify-content-center mb-1 d-flex flex-row-reverse">
+            <div class="col-12 col-md-6 ">
+                <img class="mt-5 ms-5 w-75 h-auto mb-5 border border-black shadow-lg rounded" src="Elementi fow/Card-2.jpg" alt="">
+            </div>
+            <div  class="col-12 col-md-6 fs-4 p-5">
+                <h2>Caratteristiche particolari</h2>
+                <p>Una caratteristica distintiva di Force of Will è l'uso di una pietra magica come risorsa di gioco, che aggiunge una componente strategica unica. Inoltre, il gioco presenta un sistema di abilità chiamato "Chant Standby," che consente ai giocatori di preparare incantesimi in anticipo per lanciarli in momenti critici.</p>
+                <p>Le creature del gioco possono evolversi nel corso della partita, introducendo dinamiche interessanti, e la forte enfasi sull'interazione tra giocatori contribuisce a mantenere il gioco coinvolgente. La varietà di mondi e temi offre molte opzioni creative nella costruzione del mazzo, mentre la presenza di combo e sinergie aggiunge profondità strategica.</p>
+            </div>
+        </div>
+        
+        <!--Sito all'iscrizione-->
+        
+        <div class="row justify-content-center ms-1 col-12 col-md-12">
+            <a href="https://www.fowtcg.it/registra_fow"><img class="h-auto w-100 mb-2"src="https://www.fowtcg.it/img/fowid.jpg" alt=""></a>
+        </div>
+        
+        <!--tabella elementi-->
+        
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xxl-3  mb-4">
+                    <div class="card d-block mx-auto rounded-2 border-2 border-warning shadow borde-1 bg-dark bg-opacity-75" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12"></div>
+                                    <div class="col-12">
+                                        <img src="https://i.pinimg.com/564x/1d/aa/67/1daa67c7614e3dbb13d7ab33e928bacf.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3 mb-4">
+                    <div class="card d-block mx-auto rounded-2 border-2 border-warning  shadow borde-1 bg-dark bg-opacity-75" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12"></div>
+                                    <div class="col-12">
+                                        <img src="https://i.pinimg.com/564x/33/3b/26/333b26d5c328f2471664efc072b1477a.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3 mb-4">
+                    <div class="card d-block mx-auto rounded-2 border-2 border-warning  shadow borde-1 bg-dark bg-opacity-75" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12"></div>
+                                    <div class="col-12">
+                                        <img src="https://i.pinimg.com/564x/d4/1c/f6/d41cf620d9278f5ab9b9883a27d19412.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3 mb-4">
+                    <div class="card d-block mx-auto rounded-2 border-2 border-warning  shadow borde-1 bg-dark bg-opacity-75" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12"></div>
+                                    <div class="col-12">
+                                        <img src="https://i.pinimg.com/564x/28/88/09/28880959e984af1743554d39d53fee7c.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+        
+        <!-- Card illustrative-2 -->
+        
+        <div id=art-3 class="row  align-items-center justify-content-center d-flex flex-row-reverse">
+            <div class="col-12 col-md-6">
+                <img class="mt-5 w-75 h-auto mb-5 border border-black shadow-lg rounded ms-5" src="Elementi fow/Card-3.jpg" alt="">
+            </div>
+            <div  class="col-12 col-md-6 fs-4 p-5">
+                <h2>Artwork</h2>
+                <p>L'artwork di Force of Will è ampiamente riconosciuto per la sua straordinaria qualità e dettaglio. Le carte del gioco presentano illustrazioni sorprendenti e accattivanti, spesso realizzate da artisti talentuosi. La cura posta nell'arte delle carte è evidente, con colori vibranti, dettagli intricati e uno stile che spesso cattura l'essenza dei mondi fantastici e delle creature rappresentate. Gli artisti coinvolti nel progetto spesso contribuiscono a creare un'atmosfera distintiva per ciascuna espansione o serie di carte, offrendo una vasta gamma di stili artistici. </p>
+                <p>Questo contribuisce non solo a rendere il gioco visivamente accattivante, ma anche a immergere i giocatori nei mondi fantastici e nelle storie che le carte rappresentano. L'attenzione ai dettagli nell'artwork non si limita solo alle creature, ma si estende anche agli incantesimi, ai supporti e agli elementi ambientali, enfatizzando la coesione e l'estetica dell'intero universo di gioco. L'arte di alta qualità delle carte è un elemento distintivo di Force of Will, che aggiunge un valore estetico significativo all'esperienza complessiva del gioco.</p>
+            </div>
+        </div>
+        <div id=art-4 class="row  align-items-center justify-content-center">
+            <div class="col-12 col-md-6 ">
+                <img class="mt-5 ms-5 w-75 h-auto mb-5 border border-black shadow-lg rounded" src="Elementi fow/Card-4.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-6 fs-4 p-5">
+                <h2>Storia</h2>
+                <p>Force of Will si svolge in Granmarie, un mondo fantasy ricco di magia e diviso tra diverse terre, ognuna governata da sovrani unici. La trama si concentra sulle "Guerre delle Stelle Cadenti", eventi scatenati dall'arrivo di potenti creature divine che portano un'energia magica trasformativa. Mentre gli abitanti cercano di sfruttare questo potere, emergono conflitti, alleanze e intrighi politici. </p>
+                <p>Ogni espansione del gioco approfondisce la storia, introducendo nuovi personaggi e svelando nuovi dettagli del mondo di Granmarie. La narrazione dinamica e in continua espansione aggiunge profondità all'esperienza di gioco.</p>
+            </div>
+        </div>
+        
+        <!--Card elementali-->
+        
+        <div class="row justify-content-center mt-5 mb-2">
+            <h2 class="text-center mb-5">Tipologie di elementi</h2>
+            <div class="card p-0 text-bg-danger shadow" style="width: 18rem;">
+                <img src="https://i.pinimg.com/564x/60/16/42/601642bdd45f681a544cf330da6dfba2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h4 class="text-center">Fuoco</h4>
+                    <p class="card-text text-center">Le creature di fuoco spesso hanno abilità legate al danneggiamento diretto o a effetti distruttivi.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-lg-between me-5 ms-5">
+            <div class="d-flex justify-content-center mt-5 col-lg-3">
+                <div class="card p-0 text-bg-success shadow" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/564x/59/ab/d4/59abd4595c605037af29f5d663e47e24.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="text-center">Terra</h4>
+                        <p class="card-text text-center">Creature legate a questo elemento spesso presentano resistenza e robustezza, offrendo una difesa solida.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-none d-lg-block">
+                <img class="w-100 opacity-75 mt-5" src="Elementi fow/Circle.png" alt="">
+            </div>
+            <div class="d-flex justify-content-center mt-5 col-12 col-lg-3">
+                <div class="card p-0 text-bg-info shadow" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/564x/d9/ad/83/d9ad8316e475e412ff10bac85ab476d8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="text-center">Acqua</h4>
+                        <p class="card-text text-center">Le creature legate a questo elemento possono avere abilità di controllo, blocco o interazione con il mazzo avversario.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-lg-evenly mt-2 ms-lg-5 mb-lg-5 ">
+            <div class="d-flex justify-content-center mt-5 col-lg-3">
+                <div class="card p-0 text-bg-warning shadow" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/564x/c8/9a/de/c89adec07872587b123596297f0cebaa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="text-center">Luce</h4>
+                        <p class="card-text text-center">Creature di luce sono spesso associate a cura, protezione e rimozione di effetti negativi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5 col-lg-3 ">
+                <div class="card p-0 text-bg-dark shadow" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/564x/fb/09/2e/fb092efa04dede1389a36c4b6aa0a50b.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="text-center">Oscurità</h4>
+                        <p class="card-text text-center">Le creature legate a questo elemento possono focalizzarsi su danni rapidi, controllo avversario o effetti negativi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Sito app -->
+        
+        <div class="row justify-content-center ms-1 col-12 col-md-12 mt-5">
+            <a href="https://www.fowtcg.it/articolo_int?uid=1ABFC9BE51CD2AC7C4E504BDDDC0CDFEFD0F63050F7B23FE6B668018BC0FC5B5"><img class="h-auto w-100 mb-2"src="https://www.fowtcg.it/img/app.jpg" alt="iscriviti all'app"></a>
+        </div>
+        
+        <!-- Tabella elementi-2 -->
+        
+        <div class="container my-5 py-5">
+            <div class="row">
+                <div class="col-12 col-md-6 col-xxl-3  mb-4">
+                    <div class="card d-block mx-auto rounded-2 border-2 border-warning shadow borde-1 bg-dark bg-opacity-75" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12"></div>
+                                    <div class="col-12">
+                                        <img src="https://i.pinimg.com/564x/45/55/03/4555031834b748631b547f36e06bb945.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3 mb-4">
+                    <div class="card d-block mx-auto rounded-2 border-2 border-warning  shadow borde-1 bg-dark bg-opacity-75" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12"></div>
+                                    <div class="col-12">
+                                        <img src="https://i.pinimg.com/564x/02/99/28/0299284423cd5a517b4f004501cd32eb.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3 mb-4">
+                    <div class="card d-block mx-auto rounded-2 border-2 border-warning  shadow borde-1 bg-dark bg-opacity-75" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12"></div>
+                                    <div class="col-12">
+                                        <img src="https://i.pinimg.com/564x/31/60/06/31600640fd57e1951e544f22bea9b613.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xxl-3 mb-4">
+                    <div class="card d-block mx-auto rounded-2 border-2 border-warning  shadow borde-1 bg-dark bg-opacity-75" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="col-12"></div>
+                                    <div class="col-12">
+                                        <img src="https://i.pinimg.com/564x/a7/e1/61/a7e16109f87863516a51ec3c50120fd0.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+        
+        <!-- Footer -->
+        
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top border-warning border-5 bg-dark bg-opacity-75 text-light p-5">
+            <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                    <img class="logo" src="Elementi fow/logo.png" alt="">
+                </a>
+                <p class="tx-1">Stefano Bolognino © 2024</p>
+            </div>
+            
+            <div class="col mb-3">
+                
+            </div>
+            
+            <div class="col mb-3 te">
+                <h5 class="tx-1">Sezioni</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body- text-light">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#art-1" class="nav-link p-0 text-body- text-light">FoW</a></li>
+                    <li class="nav-item mb-2"><a href="#art-2" class="nav-link p-0 text-body- text-light">Caratteristiche</a></li>
+                    <li class="nav-item mb-2"><a href="#art-3" class="nav-link p-0 text-body- text-light">Artwork</a></li>
+                    <li class="nav-item mb-2"><a href="#art-4" class="nav-link p-0 text-body- text-light">Storia</a></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="col mb-3">
+                <h5 class="tx-1">Informazioni</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2 text"><a href="#" class="nav-link p-0 text-body- text-light">Privacy policy</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body- text-light">Use of terms</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body- text-light">Copyright</a></li>
+                </ul>
+            </div>
+            
+            <div class="col mb-3">
+                <h5 class="tx-1">Seguici</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                        <button type="button" class="btn btn-outline-danger">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+                            </svg>
+                            Instagram
+                        </button>   
+                    </a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">
+                        <button type="button" class="btn btn-success">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path>
+                            </svg>
+                            Twitter-X
+                        </button>    
+                    </a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><button type="button" class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
+                        </svg>
+                        Facebook
+                    </button>
+                    
+                </a></li>
+            </ul>
+        </div>
+    </footer>    
+    
+    
+    
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
