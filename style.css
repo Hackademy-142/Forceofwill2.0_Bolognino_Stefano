@@ -22,3 +22,13 @@ body {
     font-style: normal;
   }
 
+.carouselimg {
+    width: 75%;
+}
+
+    @media screen and (max-width:450px) {
+        
+        .carouselimg {
+            width: 100%;
+        }
+    }
